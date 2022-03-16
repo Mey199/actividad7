@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(29, 77, 54);
+   }
+
+h1 {
+	background-color: rgb(58, 161, 127);
+    color: rgb(54, 124, 189);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 60px;
+    background-image:url("textura.jpg");
+    margin: 10px ;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(29, 156, 199);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+p {
+    background-color: rgb(74, 145, 106);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(3, 36, 37);
+    margin: 10px;
+    border-style:groove;
+    border-width: 5px;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+
+h2{
+    background-color: rgb(3, 36, 37);
+    color: rgb(233, 245, 191);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    border-style:ridge;
+    border-width: 5px;
+    border-radius: 25px;
+    padding: 30px;
+    width: 900px;
+}
+.estiloTexto {
+    color: rgb(186, 113, 228);
+    text-align: left;
+    direction: ltr; /*left to right, right to left */
+    text-decoration: line-through;
+    text-transform: uppercase; /*otras opciones: lowercase, capitalize */
+    text-indent: 50px;
+    letter-spacing: 10px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    /*white-space: nowrap; /*descomentar esta linea para ver la diferencia*/
+   }
+   .Texto2 {
+    color: rgb(89, 163, 212);
+    text-align: center;
+    direction: ltr; /*left to right, right to left */
+     text-transform: uppercase; /*otras opciones: lowercase, capitalize */
+    text-indent: 50px;
+    letter-spacing: 10px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    /*white-space: nowrap; /*descomentar esta linea para ver la diferencia*/
+    text-shadow: 2px 2px rgb(36, 53, 151); /*2px de sombra horizontal y vertical*/
+    /*text-shadow: 2px 2px 5px red; /* efecto de 5px de desenfoque */
+   }
+   .Tercero {
+    color: rgb(196, 173, 44);
+    text-align: right;
+    direction: ltr; /*left to right, right to left */
+    text-transform: uppercase; /*otras opciones: lowercase, capitalize */
+    text-indent: 50px;
+    letter-spacing: 10px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    /*white-space: nowrap; /*descomentar esta linea para ver la diferencia*/
+    text-shadow: 2px 2px rgb(121, 101, 13); /*2px de sombra horizontal y vertical*/
+    /*text-shadow: 2px 2px 5px red; /* efecto de 5px de desenfoque */
+   }
